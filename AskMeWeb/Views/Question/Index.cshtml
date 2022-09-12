@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Question>
+
+
+<div class="form-group">
+    <div class="input-group mb-2 border-light search-box">
+        <input id="search-input" type="text" class="form-control search" placeholder="search for question...">
+        <button class="btn btn-primary btn-search rounded-1" type="button" onclick="search()">
+            <i class="bi bi-search"></i>
+        </button>
+    </div>
+</div>
+
+<div class="list-group">
+    @foreach (var question in Model)
+    {
+        <div class="border-light question">
+            <a href="/Question/Details/@question.Id" class="list-group-item list-group-item-action flex-column align-items-start p-4">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">@question.title</h5>
+                    <small class="text-muted">
+                        @question.createdAt.ToString("dddd, dd MMMM yyyy")
+                    </small>
+                </div>
+                <p class="mb-1">
+                    @question.content
+                </p>
+            </a>
+        </div>
+    }
+</div>
+
