@@ -294,6 +294,7 @@
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/refs/System.Xml.XPath.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/refs/System.Xml.XPath.XDocument.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/refs/WindowsBase.dll
+/Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Castle.Core.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Humanizer.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
@@ -305,6 +306,7 @@
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
@@ -381,5 +383,3 @@
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/obj/Debug/net6.0/AskMeWeb.pdb
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/obj/Debug/net6.0/AskMeWeb.genruntimeconfig.cache
 /Users/anetaugrinoska/Projects/AskMe/AskMeWeb/obj/Debug/net6.0/ref/AskMeWeb.dll
-/Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Castle.Core.dll
-/Users/anetaugrinoska/Projects/AskMe/AskMeWeb/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll
