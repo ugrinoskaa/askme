@@ -33,6 +33,7 @@ namespace AskMeWeb.Controllers
                 model = _db.Question.OrderByDescending(q => q.createdAt);
             }
             return View(model);
+
         }
 
         // GET: /Question/Details/{id}
@@ -62,9 +63,13 @@ namespace AskMeWeb.Controllers
         [HttpPost]
         public IActionResult Ask(Question question)
         {
-            _db.Question.Add(question);
-            _db.SaveChanges();
-            return RedirectToAction("Details", new{ id = question.Id });
+            if (ModelState.IsValid) // for Validation on server side
+            {
+                _db.Question.Add(question);
+                _db.SaveChanges();
+                return RedirectToAction("Details", new { id = question.Id });
+            }
+            return View(question);
         }
 
         // POST: /Question/Upvote/{id}

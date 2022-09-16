@@ -19,7 +19,8 @@ namespace AskMeWeb.Models
 
     public DateTime createdAt { get; set; } = DateTime.Now;
 
-    public virtual ICollection<Answer> answers { get; set; }
+    
+    public virtual ICollection<Answer>? answers { get; set; }
 
      public void upVote()
      {

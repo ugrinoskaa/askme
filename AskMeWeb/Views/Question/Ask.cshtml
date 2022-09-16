@@ -1,16 +1,20 @@
-﻿<h2>
+﻿@model Question
+
+<h2>
     Ask anything you want here!
 </h2>
 
 <form method="post">
     <div class="form-group">
-        <label for="title" class="form-label mt-4">Title</label>
-        <input name="title" id="title" class="form-control" placeholder="your question in few words...">
+        <label asp-for="title" class="form-label mt-4">Title</label>
+        <input asp-for="title" class="form-control" placeholder="your question in few words...">
+        <span asp-validation-for="title" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="content" class="form-label mt-4">Description</label>
-        <textarea name="content" id="content" class="form-control" rows="4" spellcheck="false" placeholder="please elaborate your question in more details here..."></textarea>
+        <label asp-for="content" class="form-label mt-4">Description</label>
+        <textarea asp-for="content" class="form-control" rows="4" spellcheck="false" placeholder="please elaborate your question in more details here..."></textarea>
+        <span asp-validation-for="content" class="text-danger"></span>
     </div>
 
     <br /><br />
@@ -21,3 +25,9 @@
         </button>
     </div>
 </form>
+
+@section Scripts{ //this is for the client-side validation
+@{
+    <partial name="_ValidationScriptsPartial"></partial>
+}
+}
