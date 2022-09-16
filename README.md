@@ -25,4 +25,4 @@
 <img width="1641" alt="Screenshot 2022-09-16 at 15 29 12" src="https://user-images.githubusercontent.com/77225921/190653884-b80c84d8-ff60-416a-b8ee-a8c15b44c1e6.png">
 
 #### Run the web application AskMe
-<i>You can check my <a href="https://www.youtube.com/watch?v=Qw-R3leMJxk&t=3s">demo</a> to see how my web application works</i>
+<i>You can check my <a href="https://www.youtube.com/watch?v=Qw-R3leMJxk">demo</a> to see how my web application works</i>
