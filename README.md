@@ -1,6 +1,6 @@
 # AskMe
 
-[<img src="https://i.ytimg.com/vi/Ees8radDqeg/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Qw-R3leMJxk)
+[<img src="https://i.ytimg.com/vi/Ees8radDqeg/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Qw-R3leMJxk&t=3s)
 
 <h4>Application description</h4>
 <p>This web application is similar to StackOverflow, i.e. intended for asking questions. Users have the opportunity to ask questions and get answers to those questions, and also other functionalities that it offers are searching through questions, upVote and downVote on questions and answers, and also validation.</p>
